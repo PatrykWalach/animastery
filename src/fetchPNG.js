@@ -37,6 +37,7 @@ module.exports.fetchPNG = ({ width, height }) => async (
     const image = await loadImage(imageBuffer)
     ctx.drawImage(image, 0, 0, width, height)
 
+    res.set('Cache-Control', 'public, max-age=86400');
     canvas.createPNGStream().pipe(res)
   } catch (e) {
     console.error(e)
