@@ -1,26 +1,23 @@
 const { client } = require('./client')
 const { gql } = require('@apollo/client')
 
-module.exports.checkUserStats = async (req, res, next) => {
-  const { username, genre, level, mediaType } = req.params
-
-  const lowerCaseMediaType = mediaType.toLowerCase()
-  if (lowerCaseMediaType !== 'anime' && lowerCaseMediaType !== 'manga') {
-    throw new Error('invalid media type')
-  }
-
-  try {
-    const { data } = await client.query({
-      variables: {
-        name: username,
-      },
-      query: gql`
-        ${`
+const fetchUserData = (username) =>
+  client.query({
+    variables: {
+      name: username,
+    },
+    query: gql`
       query UserQuery($name: String!) {
         User(name: $name) {
           id
           statistics {
-            ${lowerCaseMediaType} {
+            anime {
+              genres {
+                genre
+                count
+              }
+            }
+            manga {
               genres {
                 genre
                 count
@@ -28,9 +25,19 @@ module.exports.checkUserStats = async (req, res, next) => {
             }
           }
         }
-      }`}
-      `,
-    })
+      }
+    `,
+  })
+
+module.exports.checkUserStats = ({ levels }) => async (req, res, next) => {
+  const { username, genre, level, mediaType } = req.params
+  try {
+    const lowerCaseMediaType = mediaType.toLowerCase()
+    if (lowerCaseMediaType !== 'anime' && lowerCaseMediaType !== 'manga') {
+      throw new Error('invalid media type')
+    }
+
+    const { data } = await fetchUserData(username)
     const user = data.User
 
     if (!user) {
@@ -43,7 +50,20 @@ module.exports.checkUserStats = async (req, res, next) => {
           genreStatistic.genre.toLowerCase() === genre.toLowerCase(),
       ) || {}
 
-    req.isAchived = count >= level * 200
+    const userLevel = Math.floor(count / 200) - 1
+
+    if (!level) {
+      const [lowestLevel] = levels
+      req.params.level = levels[userLevel] || lowestLevel
+    }
+
+    const requestedLevel = levels.indexOf(req.params.level.toLowerCase())
+
+    if (requestedLevel < 0) {
+      throw new Error('unknown mastery level')
+    }
+
+    req.isAchived = userLevel >= requestedLevel
 
     next()
   } catch (e) {

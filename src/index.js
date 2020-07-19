@@ -8,17 +8,22 @@ const app = express()
 
 let port = process.env.PORT
 if (port == null || port == '') {
-  port = 8000
+  port = 8080
 }
 
-app.get(
-  '/:username-:mediaType-:genre-:level.png',
-  checkUserStats,
+const HANDLERS = [
+  checkUserStats({
+    levels: ['bronze', 'silver', 'gold'],
+  }),
   fetchPNG({
     width: 520,
     height: 720,
   }),
-)
+]
+
+app.get('/:username-:mediaType-:genre-:level.png', HANDLERS)
+
+app.get('/:username-:mediaType-:genre.png', HANDLERS)
 
 app.listen(port, () => console.log(`App listening at http://localhost:${port}`))
 

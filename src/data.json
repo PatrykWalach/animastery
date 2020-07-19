@@ -1,268 +1,266 @@
 {
   "action": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/ZRZbdWJd/Action-Mastery-Bronze.png",
       "pending": "https://i.postimg.cc/1RqPM0jZ/Action-Mastery-Bronze-BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/6qbtgznr/Action-Mastery-Silver.png",
       "pending": "https://i.postimg.cc/VNvPtXCp/Action-Mastery-Silver-BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/sD1V7dCw/Action-Mastery-Gold.png",
       "pending": "https://i.postimg.cc/CLp02Z3n/Action-Mastery-Gold-BW.png"
     }
   },
   "adventure": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/85H1BTCn/Adventure-Mastery-Bronze.png",
       "pending": "https://i.postimg.cc/SNL4bS4T/Adventure-Mastery-Bronze-BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/1Rvm8R28/Adventure-Mastery-Silver.png",
       "pending": "https://i.postimg.cc/MpWSWCKW/Adventure-Mastery-Silver-BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/q7H0PNh5/Adventure-Mastery-Gold.png",
       "pending": "https://i.postimg.cc/mDFxXRVS/Adventure-Mastery-Gold-BW.png"
     }
   },
   "comedy": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/90QcLsRX/Comedy-Mastery-Bronze.png",
       "pending": "https://i.postimg.cc/zG013xVT/Comedy-Mastery-Bronze-BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/mDb4rKS3/Comedy-Mastery-Silver.png",
       "pending": "https://i.postimg.cc/HnGqFKh1/Comedy-Mastery-Silver-BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/T3DfNVwb/Comedy-Mastery-Gold.png",
       "pending": "https://i.postimg.cc/MGL2mX0T/Comedy-Mastery-Gold-BW.png"
     }
   },
   "fantasy": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/dtzKChBV/Fantasy-Mastery-Bronze.png",
       "pending": "https://i.postimg.cc/Qd6RjVyb/Fantasy-Mastery-Bronze-BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/Kz968jjF/Fantasy-Mastery-Silver.png",
       "pending": "https://i.postimg.cc/FRSqbpsW/Fantasy-Mastery-Silver-BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/FH3XVhWg/Fantasy-Mastery-Gold.png",
       "pending": "https://i.postimg.cc/25MMBMmL/Fantasy-Mastery-Gold-BW.png"
     }
   },
   "sci-fi": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/433kkp4w/Sci-fi-Mastery-Bronze.png",
       "pending": "https://i.postimg.cc/BQ7g6DJX/Sci-fi-Mastery-Bronze-BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/V6Sx51CC/Sci-Fi-Mastery-Silver.png",
       "pending": "https://i.postimg.cc/nLBY0PBD/Sci-Fi-Mastery-Silver-BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/xdFr0qcQ/Sci-Fi-Mastery-Gold.png",
       "pending": "https://i.postimg.cc/YC4xm9S8/Sci-Fi-Mastery-Gold-BW.png"
     }
   },
   "slice of life": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/G2ZZyNFS/Slice-of-Life-Mastery-Bronze.png",
       "pending": "https://i.postimg.cc/4xrQvg7G/Slice-of-Life-Mastery-Bronze-BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/hvTNbrM4/Slice-of-Life-Mastery-Gold.png",
       "pending": "https://i.postimg.cc/SsGLpYZQ/Slice-of-Life-Mastery-Gold-BW.png"
     },
-    "2": {
+    "silver": {
       "pending": "https://i.postimg.cc/ZRmPgxxD/Slice-of-Life-Mastery-Silver-BW.png",
       "fullfilled": "https://i.postimg.cc/jqfVbxKV/Slice_of_Life_Mastery_Silver.png"
     }
   },
   "romance": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/15xQngM5/Romance-Mastery-Bronze.png",
       "pending": "https://i.postimg.cc/brzTG9G2/Romance-Mastery-Bronze-BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/QxprpXng/Romance-Mastery-Silver.png",
       "pending": "https://i.postimg.cc/VsRgxpT9/Romance-Mastery-Silver-BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/13s1BLLk/Romance-Mastery-Gold.png",
       "pending": "https://i.postimg.cc/tC4kpDQK/Romance-Mastery-Gold-BW.png"
     }
   },
   "drama": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/59KJx7Qv/Drama-Mastery-Bronze.png",
       "pending": "https://i.postimg.cc/brQ7PT7D/Drama-Mastery-Bronze-BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/50nVQpPh/Drama-Mastery-Silver.png",
       "pending": "https://i.postimg.cc/QN1Gc8F8/Drama-Mastery-Silver-BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/vTKw3TwX/Drama-Mastery-Gold.png",
       "pending": "https://i.postimg.cc/yYKqPMRF/Drama-Mastery-Gold-BW.png"
     }
   },
   "horror": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/654kB9XJ/Horror-Mastery-Bronze.png",
       "pending": "https://i.postimg.cc/kXsHyBqm/Horror-Mastery-Bronze-BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/T38ZwZdy/Horror-Mastery-Silver.png",
       "pending": "https://i.postimg.cc/RZ0Dp4Zn/Horror-Mastery-Silver-BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/xjZrrXB3/Horror-Mastery-Gold.png",
       "pending": "https://i.postimg.cc/02P3mpgn/Horror-Mastery-Gold-BW.png"
     }
   },
   "sports": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/65VD8MyY/Sports_Mastery_Bronze.png",
       "pending": "https://i.postimg.cc/SRN6QQ56/Sports_Mastery_Bronze_BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/P5294NbD/Sports_Mastery_Silver.png",
       "pending": "https://i.postimg.cc/WpXmWrFX/Sports_Mastery_Silver_BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/fRw1mYdZ/Sports_Mastery_Gold.png",
       "pending": "https://i.postimg.cc/J06bsVV9/Sports_Mastery_Gold_BW.png"
     }
   },
   "mecha": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/mkz5ZSKN/Mecha-Mastery-Bronze.png",
       "pending": "https://i.postimg.cc/g0Ct0hqv/Mecha-Mastery-Bronze-BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/TYmTCjhD/Mecha-Mastery-Silver.png",
       "pending": "https://i.postimg.cc/66Lb9y7v/Mecha-Mastery-Silver-BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/RC2M7pCm/Mecha-Mastery-Gold.png",
       "pending": "https://i.postimg.cc/nrk3TP8k/Mecha-Mastery-Gold-BW.png"
     }
   },
   "thriller": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/5NJrW8nv/Thriller_Mastery_Bronze.png",
       "pending": "https://i.postimg.cc/Dzk1JPHy/Thriller_Mastery_Bronze_BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/QMF4JmdL/Thriller_Mastery_Silver.png",
       "pending": "https://i.postimg.cc/gJGR4kGC/Thriller_Mastery_Silver_BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/mgXp9JRN/Thriller_Mastery_Gold.png",
       "pending": "https://i.postimg.cc/JhNZbBC3/Thriller_Mastery_Gold_BW.png"
     }
   },
   "supernatural": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/TYc4dh4s/Supernatural_Mastery_Bronze.png",
       "pending": "https://i.postimg.cc/X7Pf3bg5/Supernatural_Mastery_Bronze_BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/rwFYKM6w/Supernatural_Mastery_Silver.png",
       "pending": "https://i.postimg.cc/RZncZDPD/Supernatural_Mastery_Silver_BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/CK223tQL/Supernatural_Gold_Mastery.png",
       "pending": "https://i.postimg.cc/02jYLQ7x/Supernatural_Gold_Mastery_BW.png"
     }
   },
-  "psycological": {
-    "1": {
+  "psychological": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/bYSPw0xB/Psycological-Mastery-Bronze.png",
       "pending": "https://i.postimg.cc/FzDx0kcC/Psycological-Mastery-Bronze-BW.png"
-    }
-  },
-  "psychological": {
-    "2": {
+    },
+    "silver": {
       "fullfilled": "https://i.postimg.cc/W3hvrgQt/Psychological-Mastery-Silver.png",
       "pending": "https://i.postimg.cc/rmGjFPpk/Psychological-Mastery-Silver-BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/mDJGShsj/Psychological-Mastery-Gold.png",
       "pending": "https://i.postimg.cc/26NTYDrG/Psychological-Mastery-Gold-BW.png"
     }
   },
   "mystery": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/ZqYZb1H8/Mystery-Mastery-Bronze.png",
       "pending": "https://i.postimg.cc/c4FDn2B1/Mystery-Mastery-Bronze-BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/WzZcYjpv/Mystery-Mastery-Silver.png",
       "pending": "https://i.postimg.cc/FKLGwR51/Mystery-Mastery-Silver-BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/0NtvbcXL/Mystery-Mastery-Gold.png",
       "pending": "https://i.postimg.cc/Z50wFHw8/Mystery-Mastery-Gold-BW.png"
     }
   },
   "ecchi": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/TPjGfTnY/Ecchi-Mastery-Bronze.png",
       "pending": "https://i.postimg.cc/8zk28Ltc/Ecchi-Mastery-Bronze-BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/kXVmDQWH/Ecchi-Mastery-Silver.png",
       "pending": "https://i.postimg.cc/7Lfjhwvy/Ecchi_Mastery_Silver_BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/Znnh832C/Ecchi-Mastery-Gold.png",
       "pending": "https://i.postimg.cc/GhxWSXP6/Ecchi-Mastery-Gold-BW.png"
     }
   },
   "mahou shoujo": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/3wYVjmDY/Mahou-Shoujo-Mastery-Bronze.png",
       "pending": "https://i.postimg.cc/6p11Dg8b/Mahou-Shoujo-Mastery-Bronze-BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/DZYNKNpw/Mahou-Shoujo-Mastery-Silver.png",
       "pending": "https://i.postimg.cc/cHf9tJXP/Mahou-Shoujo-Mastery-Silver-BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/LsD7x5zf/Mahou-Shoujo-Mastery-Gold.png",
       "pending": "https://i.postimg.cc/jjwkKcNx/Mahou-Shoujo-Mastery-Gold-BW.png"
     }
   },
   "music": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/h4XD7RBM/Music-Mastery-Bronze.png",
       "pending": "https://i.postimg.cc/GhL79dYS/Music-Mastery-Bronze-BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/P5jTcL8F/Music-Mastery-Silver.png",
       "pending": "https://i.postimg.cc/bwM36n5K/Music-Mastery-Silver-BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/Jz5MW1N7/Music-Mastery-Gold.png",
       "pending": "https://i.postimg.cc/BbshTGzb/Music-Mastery-Gold-BW.png"
     }
   },
   "hentai": {
-    "1": {
+    "bronze": {
       "fullfilled": "https://i.postimg.cc/KzvXbBZJ/Hentai-Mastery-Tier-1.png",
       "pending": "https://i.postimg.cc/zv1QxhyJ/Hentai-Mastery-Tier-1-BW.png"
     },
-    "2": {
+    "silver": {
       "fullfilled": "https://i.postimg.cc/prpghv5j/Hentai-Mastery-Tier-2.png",
       "pending": "https://i.postimg.cc/KcnwR0W4/Hentai-Mastery-Tier-2-BW.png"
     },
-    "3": {
+    "gold": {
       "fullfilled": "https://i.postimg.cc/mkJK7n75/Hentai-Mastery-Tier-3.png",
       "pending": "https://i.postimg.cc/J0c2vhXj/Hentai-Mastery-Tier-3-BW.png"
     }
