@@ -21,9 +21,9 @@ const HANDLERS = [
   }),
 ]
 
-app.get('/:username-:mediaType-:genre-:level.png', HANDLERS)
+app.get('/:username/:mediaType/:genre/:level.png', HANDLERS)
 
-app.get('/:username-:mediaType-:genre.png', HANDLERS)
+app.get('/:username/:mediaType/:genre.png', HANDLERS)
 
 app.listen(port, () => console.log(`App listening at http://localhost:${port}`))
 
