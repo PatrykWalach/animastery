@@ -18,7 +18,7 @@
                 height: 0;
                 overflow: hidden;
                 padding-top: 170%;
-                background: white;
+                background: transparent;
                 position: relative;
            }
             @media only screen and (min-width: 390px) {
